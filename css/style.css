@@ -1,0 +1,146 @@
+/*========== All settings styles ==============
+===============================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .3s ease;
+}
+html {
+    font-size: 100%;
+}
+/*================ Navbar styles ==============
+===============================================*/
+nav {
+    background-color: #2c3e50;
+    color: #fff;
+}
+nav .name-brand h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.navbar-toggler {
+    color: #fff;
+    background-color: #16a085;
+    outline: none;
+    padding: 5px;
+    display: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler .fa-bars {
+    font-size: 20px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+}
+/*================ Content styles =============
+===============================================*/
+.container h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.container h1 span {
+    color: #16a085;
+}
+.container .row {
+    background-color: #eee;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.container .row .box {
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.container .row .box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.container .row .box h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #2c3e50;
+}
+.container .row .box  .stars {
+    font-size: 24px;
+    color: #16a085;
+}
+.container .row .box  span {
+    font-size: 34px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #1abc9c;
+}
+.container .row .box .btn {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 8px 40px 8px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.container .row .box .btn:hover {
+    background-color: #16a085;
+}
+
+
+
+
+/*========== Media query for mobo styles "Responsive Design" ==============
+===========================================================================*/
+@media (max-width:767px) {
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-nav {
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+    }
+    .navbar-nav .nav-item a {
+        color: #fff;
+    }
+    .navbar-nav .nav-item:hover {
+        background-color: #16a085;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .container h1 {
+        font-size: 30px;
+    }
+    .container .row {
+        margin: auto;
+    }
+    .container .row .box img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .container .row .box h3 {
+        font-size: 28px;
+    }
+    .container .row .box  .stars {
+        font-size: 20px;
+    }
+    .container .row .box  span {
+        font-size: 30px;
+    }
+    .container .row .box .btn {
+        background-color: #2c3e50;
+        color: #fff;
+        padding: 8px 30px 8px;
+        font-size: 24px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    
+}
+
